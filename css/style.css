@@ -819,6 +819,23 @@ a:focus {
           transform: translateX(-50%);
 }
 
+
+textarea.message-box {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+textarea.message-box:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
 /* footer section*/
 .footer_section {
   background-color: #0a0f43;
